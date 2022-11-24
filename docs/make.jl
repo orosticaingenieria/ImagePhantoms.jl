@@ -1,6 +1,6 @@
 execute = isempty(ARGS) || ARGS[1] == "run"
 
-org, reps = :OrosticaIngenieria, :ImagePhantoms
+org, reps = :orosticaingenieria, :ImagePhantoms
 eval(:(using $reps))
 using Documenter
 using Literate
